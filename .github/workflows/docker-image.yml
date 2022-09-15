@@ -1,4 +1,4 @@
-name: Build All
+name: Build8080
 
 on:
   workflow_dispatch:
@@ -25,4 +25,4 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: shipochif/shanghai
+          tags: shipochif/ningbo
